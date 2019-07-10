@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Ridge regression / Lasso regression 
-
-# In[42]:
-
+# Ridge regression / Lasso regression 
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -17,17 +11,11 @@ from sklearn.datasets import load_boston
 dataset = load_boston()
 
 
-# In[43]:
-
-
 # sample data
 data_x = pd.DataFrame(dataset.data,columns=dataset.feature_names)
 
 #target data
 data_y = pd.DataFrame(dataset.target,columns=['target'])
-
-
-# In[44]:
 
 
 #compact the data set 
@@ -39,24 +27,15 @@ for i in range(size):
 data_y = data_y.as_matrix().ravel()
 
 
-# In[45]:
-
-
 lr = LinearRegression()
 lasso = Lasso()
 ridge = Ridge()
-
-
-# In[46]:
 
 
 #create regression linear / lasso / ridge
 lr.fit(data_x, data_y)
 lasso.fit(data_x, data_y)
 ridge.fit(data_x, data_y)
-
-
-# In[47]:
 
 
 plt.plot(lr.predict(data_x), linestyle="solid", 
@@ -68,9 +47,6 @@ plt.plot(ridge.predict(data_x), linestyle="solid",
 plt.title("Linear, Lasso, Ridge")
 plt.legend(loc="lower right")
 plt.show()
-
-
-# In[51]:
 
 
 print('coefficients of lasso and aridge')
