@@ -1,5 +1,5 @@
 # Python
-python projects
+
 
 #### Data Cleaning / Explanatory Analysis (Pandas, NumPy, matplotlib, seaborn)
   - [Titanic Data Analysis](https://github.com/YutaUtah/Python/tree/master/Titanics)
