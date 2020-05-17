@@ -11,7 +11,7 @@
     - [Propensity Predictor](https://github.com/YutaUtah/Python/tree/master/Bayes%20NB)
   - KNN Classifier
     - [Diabetes Project](https://github.com/YutaUtah/Python/tree/master/diabetes%20project)
-    - [FUndamental KNN](https://github.com/YutaUtah/Python/tree/master/assignment)
+    - [Fundamental KNN](https://github.com/YutaUtah/Python/tree/master/assignment)
   - Predictive Analysis  
     - [Melbourne Housing Price Prediction Project](https://github.com/YutaUtah/Python/tree/master/melbourne)
     - [Boston Housing Price Prediction Project](https://github.com/YutaUtah/Python/tree/master/houseprice%20prediction%20project)
